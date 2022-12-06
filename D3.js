@@ -50,10 +50,12 @@ if (resultJ === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const numberM = 4;
-const numberN = 12;
+const numberM = 8;
+const numberN = 8;
 
-if (numberM === 8) {
+if (numberM === 8 && numberN === 8) {
+  console.log("ex.4:", "m = 8, n = 8");
+} else if (numberM === 8) {
   console.log("ex.4:", "m = 8");
 } else if (numberN === 8) {
   console.log("ex.4:", "n = 8");
