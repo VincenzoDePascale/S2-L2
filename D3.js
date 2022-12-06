@@ -111,7 +111,7 @@ if (prePrice < 50) {
     "prePrice:",
     prePrice,
     "euro",
-    "+ shipment:" + shipment,
+    "+ costi spedizione:" + shipment,
     "=",
     "euro",
     "total:",
@@ -124,7 +124,7 @@ if (prePrice < 50) {
     "prePrice:",
     prePrice,
     "euro",
-    "+ shipment:" + shipment,
+    "+ costi spedizione:" + shipment,
     "=",
     "euro",
     "total:",
@@ -147,7 +147,7 @@ if (totalPrice < 50) {
     "prePrice scontato:",
     totalPrice,
     "euro",
-    "+ shipment:" + shipment,
+    "+ costi spedizione:" + shipment,
     "=",
     "euro",
     "total:",
@@ -160,7 +160,7 @@ if (totalPrice < 50) {
     "prePrice scontato:",
     totalPrice,
     "euro",
-    "+ shipment:" + shipment,
+    "+ costi spedizioni:" + shipment,
     "=",
     "euro",
     "total:",
@@ -194,6 +194,8 @@ if (v1 > v2 && v2 > v3) {
   console.log("ex.7:", "v3>v2>v1");
 }
 
+// inserire la possibilita in cui almeno due numeri sono uguali
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
@@ -203,8 +205,8 @@ if (v1 > v2 && v2 > v3) {
 const TorN = "lairsugh";
 
 if (typeof TorN === Number) {
-  console.log("ex.8:", "the tipe of data is", typeof TorN);
-} else if (typeof TorN !== String) {
+  console.log("ex.8:", "the tipe of data is a number");
+} else if (typeof TorN !== Number) {
   console.log("ex.8:", "the tipe of data is not a number, but", typeof TorN);
 }
 
@@ -237,7 +239,7 @@ if (resultP === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let val = 15;
+let val = 10;
 if (val < 5) {
   console.log("ex.10:", val, "Meno di 5");
 } else if (val < 10) {
