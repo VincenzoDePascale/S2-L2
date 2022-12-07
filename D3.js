@@ -50,8 +50,8 @@ if (resultJ === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const numberM = 8;
-const numberN = 8;
+const numberM = 12;
+const numberN = 4;
 
 if (numberM === 8 && numberN === 8) {
   console.log("ex.4:", "m = 8, n = 8");
@@ -180,6 +180,10 @@ const v1 = 7;
 const v2 = 1;
 const v3 = 3;
 
+if (v1 !== v2 && v2 !== v3 && v1 !== v3) {
+  console.log("try ex 7");
+}
+
 if (v1 > v2 && v2 > v3) {
   console.log("ex.7:", "v1>v2>v3");
 } else if (v1 > v3 && v3 > v2) {
@@ -289,9 +293,9 @@ console.log("ex.13:", me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let arrayEx = [];
+const arrayEx = [];
 console.log("ex.14a:", "arrayEx contain:", arrayEx);
-arrayEx = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arrayEx.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 console.log("ex.14b:", "now arrayEx contain:", arrayEx);
 
 /* ESERCIZIO 15
